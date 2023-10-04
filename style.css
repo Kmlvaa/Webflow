@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: Montserrat, sans-serif;
+    color: #1a1b1f;
+}
+.header-div{
+    background-image: url("https://uploads-ssl.webflow.com/62cec6d8155fca43b91e426d/62cecfcbc55dc46988e7a730_Best-Family-Lawyers-1024x569.jpg");
+    height: 600px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: -8px -8px 100px;
+}
+.body-div{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-header{
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.second-part{
+    height: 420px;
+    margin-top: 50px;
+}
+p:not(p.imagetext){
+    display: block;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.youtube-video-part{
+    width: 50%;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+.bottom{
+    margin-bottom: 100px;
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color:#c1c3c7;
+}
+.imagetext{
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+img {
+    width: 100%;
+   margin-top: 25px;
+}
+.container {
+    display: flex;
+}
